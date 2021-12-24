@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>eShop</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <header>
+    <button style="margin-left: 45vw" class="cart-button" class="cart-button" type="button">Корзина</button>
+  </header>
+  <main>
+    <!-- <div class="basket hide"><h3>Количество   Нименование   цена за ШТ    Общая цена</h3></div> -->
+    <span class="cartIconWrap hidden">
+      <div class="basket hidden">
+          <div class="basketRow basketHeader">
+              <div>Название товара</div>
+              <div>Количество</div>
+              <div>Цена за шт.</div>
+              <div>Итого</div>
+          </div>
+
+          <div class="basketTotal">
+              Товаров в корзине на сумму:
+              $<span class="basketTotalValue">0</span>
+          </div>
+      </div>
+  </span>
+
+ <div style="display:flex; flex-direction:row" class="goods-list"></div>
+
+  </main>
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
